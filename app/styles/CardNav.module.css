@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.red{
+    color:red
+}
+.green{
+    color: green;
+}
+.red,
+.green{
+    font-size: 25px;
+}

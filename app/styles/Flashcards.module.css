@@ -1,0 +1,46 @@
+.flashcardSecondaryContainer {
+    width: 700px;
+    height: 400px;
+    aspect-ratio: 16/9;
+    perspective: 3200px;
+    position: relative;
+    cursor: pointer;
+}
+
+.front_side {
+    transform: rotateX(0deg);
+    background-color: white;
+    color: black;
+}
+
+.back_side {
+    transform: rotateX(-180deg);
+    background-color: black;
+    color: white;
+}
+
+.front_side,
+.back_side {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    box-shadow: 4px 12px 40px 6px rgba(0, 0, 0, 0.9);
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backface-visibility: hidden;
+    transition: 0.5s;
+}
+
+.flashcardSecondaryContainer.flipped .front_side {
+    transform: rotateX(180deg);
+}
+
+.flashcardSecondaryContainer.flipped .back_side {
+    transform: rotateX(0deg);
+}
+.flashcardSecondaryContainer {
+    pointer-events: auto; /* Tıklamayı etkinleştirir */
+}
