@@ -1,9 +1,5 @@
-// libs
 import classNames from 'classnames';
-// components
 import Link from "next/link";
-
-// styles
 import pageStyles from './page.module.css';
 import linkStyles from './styles/link.module.css';
 

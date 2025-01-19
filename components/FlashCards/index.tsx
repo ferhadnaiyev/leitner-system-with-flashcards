@@ -5,14 +5,25 @@ import { useDispatch, useSelector } from 'react-redux';
 import { setIsFlippedForClick } from '@/stores/isFlipped';
 import { RootType } from '@/stores/store-provider';
 
+import { useRef } from 'react';
 
 
 
 function FlashCards({ data }: CardsDataProps) {
     const dispatch = useDispatch();
-
+    const ref = useRef(null)
     const { displayedCardValue } = useSelector((store: RootType) => store.displayedCard);
     const { isFlipped } = useSelector((store: RootType) => store.isFlipped);
+
+
+    const handleClickInside = () => {
+
+        console.log('clicked inside')
+    }
+    const handleFlashcardClick = () => {
+        dispatch(setIsFlippedForClick())
+        handleClickInside()
+    }
 
     return (
         <div>
@@ -23,7 +34,8 @@ function FlashCards({ data }: CardsDataProps) {
                     card.queueNumber === displayedCardValue ? (
 
                         <div
-                            onClick={() => dispatch(setIsFlippedForClick())}
+                            ref={ref}
+                            onClick={handleFlashcardClick}
                             className={`${classes.flashcardSecondaryContainer} ${isFlipped ? classes.flipped : ""
                                 }`}
                             key={card.id}

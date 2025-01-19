@@ -1,4 +1,4 @@
-import { ReactNode } from "react";
+
 
 export interface Card {
     id: number;
@@ -10,6 +10,4 @@ export interface Card {
 export interface CardsDataProps {
     data: Card[];
 }
-export interface StoreProviderProps {
-    children: ReactNode;
-}
+

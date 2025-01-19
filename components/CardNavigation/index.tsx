@@ -8,8 +8,8 @@ import linkStyles from '@/app/styles/link.module.css';
 import cardNavStyles from '@/app/styles/CardNav.module.css';
 import React from 'react'
 import { useDispatch, useSelector } from 'react-redux'
-import findID from './findID'
-import incrementBoxID from './incrementBoxID';
+import findID from '../../utils/findID'
+import incrementBoxID from '@/utils/incrementBoxID/index';
 import { RootType } from '@/stores/store-provider';
 import { Card, CardsDataProps } from '@/types/interfaces';
 import classNames from "classnames";
@@ -23,14 +23,14 @@ function CardNav({ data }: CardsDataProps) {
     const no = async () => {
 
         const id = (findID(cardsForToday, displayedCardValue, "id"))
-        console.log(id);
+
         try {
 
-            const response = await axios.put(`http://localhost:3000/api/cards/${id}`, {
+            await axios.put(`http://localhost:3000/api/cards/${id}`, {
                 boxID: 1,
             });
 
-            console.log("Response from server:", response.data);
+
 
 
 
@@ -41,20 +41,20 @@ function CardNav({ data }: CardsDataProps) {
         }
 
     }
-    console.log(cardsForToday)
+
     const yes = async () => {
         const id = (findID(cardsForToday, displayedCardValue, "id"));
         const boxID = incrementBoxID(cardsForToday, displayedCardValue, "boxID");
 
-        console.log(boxID)
+
 
         try {
 
-            const response = await axios.put(`http://localhost:3000/api/cards/${id}`, {
+            await axios.put(`http://localhost:3000/api/cards/${id}`, {
                 boxID: boxID,
             });
 
-            console.log("Response from server:", response.data);
+
 
 
 
