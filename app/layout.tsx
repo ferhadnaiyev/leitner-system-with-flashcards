@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import StoreProvider from "@/stores/store-provider";
+import Header from "@/components/Header";
 
 
 
@@ -20,6 +21,7 @@ export default function RootLayout({
       >
 
         <StoreProvider>
+          <Header />
           {children}
         </StoreProvider>
 

@@ -1,34 +1,32 @@
 "use client"
 import { FaCheck } from "react-icons/fa";
 import { ImCross } from "react-icons/im";
-import axios from 'axios';
 import { incrementDisplayedCard } from '@/stores/displayedCard';
 import { setIsFlippedForButton } from '@/stores/isFlipped';
 import linkStyles from '@/app/styles/link.module.css';
 import cardNavStyles from '@/app/styles/CardNav.module.css';
-import React from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import findID from '../../utils/findID'
 import incrementBoxID from '@/utils/incrementBoxID/index';
 import { RootType } from '@/stores/store-provider';
 import { Card, CardsDataProps } from '@/types/interfaces';
 import classNames from "classnames";
+import { boxIDPutRequest } from "@/utils/boxIDPutRequest";
 
 
 function CardNav({ data }: CardsDataProps) {
+
     const dispatch = useDispatch();
     const { displayedCardValue } = useSelector((store: RootType) => store.displayedCard);
     const cardsForToday: Card[] = data
-
+    const finishLine: number = data.length;
     const no = async () => {
 
         const id = (findID(cardsForToday, displayedCardValue, "id"))
-
+        const newBoxID = 1
         try {
+            await boxIDPutRequest(id, newBoxID)
 
-            await axios.put(`http://localhost:3000/api/cards/${id}`, {
-                boxID: 1,
-            });
 
 
 
@@ -44,15 +42,13 @@ function CardNav({ data }: CardsDataProps) {
 
     const yes = async () => {
         const id = (findID(cardsForToday, displayedCardValue, "id"));
-        const boxID = incrementBoxID(cardsForToday, displayedCardValue, "boxID");
+        const newBoxID = incrementBoxID(cardsForToday, displayedCardValue, "boxID");
 
 
 
         try {
 
-            await axios.put(`http://localhost:3000/api/cards/${id}`, {
-                boxID: boxID,
-            });
+            await boxIDPutRequest(id, newBoxID)
 
 
 
@@ -68,11 +64,11 @@ function CardNav({ data }: CardsDataProps) {
     return (
         <div className={classNames(cardNavStyles.container)} >
 
-            <button className={classNames(linkStyles.link)} onClick={no}>
+            <button className={classNames(linkStyles.link)} onClick={no} disabled={displayedCardValue === finishLine}>
                 <ImCross className={classNames(cardNavStyles.red)} />
             </button>
 
-            <button className={classNames(linkStyles.link)} onClick={yes}>
+            <button className={classNames(linkStyles.link)} onClick={yes} disabled={displayedCardValue === finishLine}>
                 <FaCheck className={classNames(cardNavStyles.green)} />
             </button>
 

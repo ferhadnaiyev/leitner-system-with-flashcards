@@ -1,12 +1,178 @@
 {
-    "levels": [
-        {
-            "id": 1,
-            "firstLevel": []
-        },
-        {
-            "id": 2,
-            "nextLevel": []
-        }
-    ]
+  "cards": [
+    {
+      "id": "1",
+      "termin": "apple",
+      "definition": "alma",
+      "boxID": 1
+    },
+    {
+      "id": "2",
+      "termin": "banana",
+      "definition": "banan",
+      "boxID": 1
+    },
+    {
+      "id": "3",
+      "termin": "cherry",
+      "definition": "gilas",
+      "boxID": 1
+    },
+    {
+      "id": "4",
+      "termin": "grape",
+      "definition": "üzüm",
+      "boxID": 1
+    },
+    {
+      "id": "5",
+      "termin": "lemon",
+      "definition": "limon",
+      "boxID": 1
+    },
+    {
+      "id": "6",
+      "termin": "orange",
+      "definition": "portağal",
+      "boxID": 1
+    },
+    {
+      "id": "7",
+      "termin": "peach",
+      "definition": "şaftalı",
+      "boxID": 1
+    },
+    {
+      "id": "8",
+      "termin": "pear",
+      "definition": "armud",
+      "boxID": 1
+    },
+    {
+      "id": "9",
+      "termin": "plum",
+      "definition": "ərik",
+      "boxID": 1
+    },
+    {
+      "id": "10",
+      "termin": "strawberry",
+      "definition": "çiyələk",
+      "boxID": 1
+    },
+    {
+      "id": "1737835219928",
+      "termin": "Ferhad",
+      "definition": "Nagiyev",
+      "boxID": 1
+    },
+    {
+      "id": "1737835988639",
+      "termin": "üergfvr",
+      "definition": "ervfüer",
+      "boxID": 1
+    },
+    {
+      "id": "1737836005736",
+      "termin": "sadrgvf",
+      "definition": "evs",
+      "boxID": 1
+    },
+    {
+      "id": "1737836019623",
+      "termin": "etbvgrü",
+      "definition": "rbrütes",
+      "boxID": 1
+    },
+    {
+      "id": "1737836064095",
+      "termin": "sedfvre",
+      "definition": "üergüreg",
+      "boxID": 1
+    },
+    {
+      "id": "1737836113560",
+      "termin": "1",
+      "definition": "1",
+      "boxID": 1
+    },
+    {
+      "id": 1737853375960,
+      "termin": "vgbhjn",
+      "definition": " bnm",
+      "boxID": 1
+    }
+  ],
+  "cardsForToday": [
+    {
+      "id": "1",
+      "termin": "apple",
+      "definition": "alma",
+      "boxID": 1,
+      "queueNumber": 2
+    },
+    {
+      "id": "2",
+      "termin": "banana",
+      "definition": "banan",
+      "boxID": 1,
+      "queueNumber": 1
+    },
+    {
+      "id": "3",
+      "termin": "cherry",
+      "definition": "gilas",
+      "boxID": 1,
+      "queueNumber": 3
+    },
+    {
+      "id": "4",
+      "termin": "grape",
+      "definition": "üzüm",
+      "boxID": 1,
+      "queueNumber": 4
+    },
+    {
+      "id": "5",
+      "termin": "lemon",
+      "definition": "limon",
+      "boxID": 2,
+      "queueNumber": 5
+    },
+    {
+      "id": "6",
+      "termin": "orange",
+      "definition": "portağal",
+      "boxID": 3,
+      "queueNumber": 6
+    },
+    {
+      "id": "7",
+      "termin": "peach",
+      "definition": "şaftalı",
+      "boxID": 4,
+      "queueNumber": 7
+    },
+    {
+      "id": "8",
+      "termin": "pear",
+      "definition": "armud",
+      "boxID": 4,
+      "queueNumber": 8
+    },
+    {
+      "id": "9",
+      "termin": "plum",
+      "definition": "ərik",
+      "boxID": 4,
+      "queueNumber": 9
+    },
+    {
+      "id": "10",
+      "termin": "strawberry",
+      "definition": "çiyələk",
+      "boxID": 4,
+      "queueNumber": 10
+    }
+  ]
 }

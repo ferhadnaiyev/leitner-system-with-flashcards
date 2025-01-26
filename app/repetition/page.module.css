@@ -1,9 +1,8 @@
-
 .main{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100dvh;
+    height: calc(100dvh - 80px);
 }
 .container{
     display: flex;

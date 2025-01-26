@@ -1,16 +1,14 @@
-import { collectData } from '@/lib/collector';
 import { Card } from '@/types/interfaces';
 import FlashCards from '@/components/FlashCards';
 import CardNav from '@/components/CardNavigation/index';
 import classNames from 'classnames';
 import pageStyles from './page.module.css';
+import { fetchData } from '@/utils/fetchData';
 
 
 
 export default async function RepetitionPage() {
-
-
-    const cardsForToday: Card[] = await collectData();
+    const cardsForToday: Card[] = await fetchData("cardsForToday")
 
 
 

@@ -1,22 +1,32 @@
-.flashcardSecondaryContainer {
+.flashcardContainer {
     width: 700px;
     height: 400px;
     aspect-ratio: 16/9;
     perspective: 3200px;
     position: relative;
     cursor: pointer;
-}
 
+}
+.placeholder{
+    background-color: black;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+}
 .front_side {
     transform: rotateX(0deg);
     background-color: white;
     color: black;
+    
 }
 
 .back_side {
     transform: rotateX(-180deg);
     background-color: black;
     color: white;
+
 }
 
 .front_side,
@@ -26,7 +36,7 @@
     height: 100%;
     border-radius: 15px;
     box-shadow: 4px 12px 40px 6px rgba(0, 0, 0, 0.9);
-    font-size: 40px;
+    font-size: 3rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -34,13 +44,52 @@
     transition: 0.5s;
 }
 
-.flashcardSecondaryContainer.flipped .front_side {
+.flashcardContainer.flipped .front_side {
     transform: rotateX(180deg);
 }
 
-.flashcardSecondaryContainer.flipped .back_side {
+.flashcardContainer.flipped .back_side {
     transform: rotateX(0deg);
 }
-.flashcardSecondaryContainer {
-    pointer-events: auto; /* Tıklamayı etkinleştirir */
+.flashcardContainer {
+    pointer-events: auto;
+}
+
+.backdrop{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 100;
+}
+.heading{
+    font-size: 3rem;
+    font-weight: bolder;
+}
+.popup{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 200;
+    height: 20rem;
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 1rem;
+    
+}
+.popupButtons{
+    display: flex;
+    font-size: 7rem;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
 }
