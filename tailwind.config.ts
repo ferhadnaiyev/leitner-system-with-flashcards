@@ -11,8 +11,15 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        yellow: "var(--yellow)"
+      },
+      fontFamily: {
+        montserrat: ['var(--font-montserrat)', 'sans-serif'],
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/line-clamp'),
+    require('tailwind-scrollbar-hide'),
+  ],
 } satisfies Config;
