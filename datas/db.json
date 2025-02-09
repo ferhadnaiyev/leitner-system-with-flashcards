@@ -1,138 +1,162 @@
 {
-    "cards": [
-        {
-            "id": 1,
-            "termin": "Ferhad",
-            "definition": "Someone or something that can be trusted to work well or behave in a dependable way.random",
-            "boxID": 1
-        },
-        {
-            "id": 2,
-            "termin": "Eli",
-            "definition": "Someone or something that can be trusted to work well or behave in a dependable way.rajnwrsfjndom",
-            "boxID": 1
-        },
-        {
-            "id": 32451,
-            "termin": "Ferhad",
-            "definition": "Someone or something that can be trusted to work well or behave in a dependable way.random",
-            "boxID": 1
-        },
-        {
-            "id": 23456,
-            "termin": "Eli",
-            "definition": "Someone or something that can be trusted to work well or behave in a dependable way.rajnwrsfjndom",
-            "boxID": 1
-        },
-        {
-            "id": 13456,
-            "termin": "Ferhad",
-            "definition": "Someone or something that can be trusted to work well or behave in a dependable way.random",
-            "boxID": 1
-        },
-        {
-            "id": 2342356,
-            "termin": "Eli",
-            "definition": "Someone or something that can be trusted to work well or behave in a dependable way.rajnwrsfjndom",
-            "boxID": 1
-        },
-        {
-            "id": 3,
-            "termin": "Ferhad",
-            "definition": "Someone or something that can be trusted to work well or behave in a dependable way.random",
-            "boxID": 1
-        },
-        {
-            "id": 4,
-            "termin": "Eli",
-            "definition": "Someone or something that can be trusted to work well or behave in a dependable way.rajnwrsfjndom",
-            "boxID": 1
-        },
-        {
-            "id": 1234,
-            "termin": "Ferhad",
-            "definition": "Someone or something that can be trusted to work well or behave in a dependable way.random",
-            "boxID": 1
-        },
-        {
-            "id": 232,
-            "termin": "Eli",
-            "definition": "Someone or something that can be trusted to work well or behave in a dependable way.rajnwrsfjndom",
-            "boxID": 1
-        },
-        {
-            "id": 4351,
-            "termin": "Ferhad",
-            "definition": "Someone or something that can be trusted to work well or behave in a dependable way.random",
-            "boxID": 1
-        },
-        {
-            "id": 27645,
-            "termin": "Eli",
-            "definition": "Someone or something that can be trusted to work well or behave in a dependable way.rajnwrsfjndom",
-            "boxID": 2
-        },
-        {
-            "id": 13564763,
-            "termin": "Ferhad",
-            "definition": "Someone or something that can be trusted to work well or behave in a dependable way.random",
-            "boxID": 3
-        },
-        {
-            "id": 2643556,
-            "termin": "Eli",
-            "definition": "Someone or something that can be trusted to work well or behave in a dependable way.rajnwrsfjndom",
-            "boxID": 4
-        },
-        {
-            "id": 16345634,
-            "termin": "Ferhad",
-            "definition": "Someone or something that can be trusted to work well or behave in a dependable way.random",
-            "boxID": 5
-        },
-        {
-            "id": 26345634,
-            "termin": "Eli",
-            "definition": "Someone or something that can be trusted to work well or behave in a dependable way.rajnwrsfjndom",
-            "boxID": 6
-        }
-    ],
-    "boxes": [
-        {
-            "id": 1,
-            "name": "Daily",
-            "boxID": 1,
-            "practiceRequired": 1
-        },
-        {
-            "id": 2,
-            "name": "Every 2 days",
-            "boxID": 2,
-            "practiceRequired": 0
-        },
-        {
-            "id": 3,
-            "name": "Once a week",
-            "boxID": 3,
-            "practiceRequired": 1
-        },
-        {
-            "id": 4,
-            "name": "Once a month",
-            "boxID": 4,
-            "practiceRequired": 0
-        },
-        {
-            "id": 5,
-            "name": "Once in 3 months",
-            "boxID": 5,
-            "practiceRequired": 0
-        },
-        {
-            "id": 6,
-            "name": "Once a year",
-            "boxID": 6,
-            "practiceRequired": 0
-        }
-    ]
+  "cards": [
+    {
+      "id": 1739118672649,
+      "termin": "Reliable",
+      "definition": "Someone or something that can be trusted to work well or behave in a dependable way.",
+      "boxID": 1
+    },
+    {
+      "id": 1739120296879,
+      "termin": "sjkdmkewfm",
+      "definition": "ddddddddddddddddsnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn",
+      "boxID": 1
+    },
+    {
+      "id": 1739120327486,
+      "termin": "dsfwe",
+      "definition": "wefwe",
+      "boxID": 1
+    },
+    {
+      "id": 1739120372308,
+      "termin": "ewd",
+      "definition": "djas jdfjwemfjwmenjfmjew\naejfmnwejkms\nefjmwkoefmwe\nefmwokwef",
+      "boxID": 1
+    },
+    {
+      "id": 1739120392193,
+      "termin": "ew",
+      "definition": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "boxID": 1
+    },
+    {
+      "id": 1739120440893,
+      "termin": "rrrrrrrrrrrrrrrrr",
+      "definition": "erfgwgrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr",
+      "boxID": 1
+    },
+    {
+      "id": 1739120473179,
+      "termin": "122",
+      "definition": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+      "boxID": 1
+    },
+    {
+      "id": 1739121087640,
+      "termin": "23",
+      "definition": "fwefeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "boxID": 1
+    },
+    {
+      "id": 1739121416410,
+      "termin": "4324r",
+      "definition": "weer32we",
+      "boxID": 1
+    },
+    {
+      "id": 1739121442024,
+      "termin": "wqer",
+      "definition": "ewqr",
+      "boxID": 1
+    },
+    {
+      "id": 1739121560515,
+      "termin": "üer",
+      "definition": "23",
+      "boxID": 1
+    },
+    {
+      "id": 1739121739466,
+      "termin": "2334",
+      "definition": "23re2",
+      "boxID": 1
+    },
+    {
+      "id": 1739121828952,
+      "termin": "2134",
+      "definition": "1234",
+      "boxID": 1
+    },
+    {
+      "id": 1739121915150,
+      "termin": "1234e",
+      "definition": "24314",
+      "boxID": 1
+    },
+    {
+      "id": 1739123072280,
+      "termin": "3q24q",
+      "definition": "r23q4qr",
+      "boxID": 1
+    },
+    {
+      "id": 1739123164127,
+      "termin": "123",
+      "definition": "123",
+      "boxID": 1
+    },
+    {
+      "id": 1739123335198,
+      "termin": "2",
+      "definition": "2",
+      "boxID": 1
+    },
+    {
+      "id": 1739123397743,
+      "termin": "3",
+      "definition": "3",
+      "boxID": 1
+    },
+    {
+      "id": 1739123471943,
+      "termin": "3",
+      "definition": "3",
+      "boxID": 1
+    },
+    {
+      "id": 1739124538351,
+      "termin": "23",
+      "definition": "23",
+      "boxID": 1
+    }
+  ],
+  "boxes": [
+    {
+      "id": 1,
+      "name": "Daily",
+      "boxID": 1,
+      "practiceRequired": 1
+    },
+    {
+      "id": 2,
+      "name": "Every 2 days",
+      "boxID": 2,
+      "practiceRequired": 0
+    },
+    {
+      "id": 3,
+      "name": "Once a week",
+      "boxID": 3,
+      "practiceRequired": 1
+    },
+    {
+      "id": 4,
+      "name": "Once a month",
+      "boxID": 4,
+      "practiceRequired": 0
+    },
+    {
+      "id": 5,
+      "name": "Once in 3 months",
+      "boxID": 5,
+      "practiceRequired": 0
+    },
+    {
+      "id": 6,
+      "name": "Once a year",
+      "boxID": 6,
+      "practiceRequired": 0
+    }
+  ]
 }

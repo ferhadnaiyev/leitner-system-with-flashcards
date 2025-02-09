@@ -1,5 +1,5 @@
 "use client"
-import { setDisplayedBox } from '@/stores/displayedBox'
+import { setDisplayedBox } from '@/stores/slices/displayedBox'
 import { BoxItem } from '@/types/interfaces'
 import Image from 'next/image'
 import React from 'react'

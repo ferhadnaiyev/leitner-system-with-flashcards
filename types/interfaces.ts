@@ -1,10 +1,10 @@
-export interface CardsItem {
+export interface CardsType {
     id: number;
     termin: string;
     definition: string;
     boxID: number;
 }
-export interface BoxItem {
+export interface BoxType {
     id: number;
     name: string;
     boxID: number;

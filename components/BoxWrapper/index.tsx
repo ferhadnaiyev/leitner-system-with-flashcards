@@ -1,15 +1,17 @@
+"use client"
 import React from 'react'
 import Box from '../Box'
-import { BoxItem } from '@/types/interfaces'
 
-function BoxWrapper({ data }: { data: BoxItem[] }) {
+import { useGetBoxesQuery } from '@/stores/slices/getBoxes';
 
+function BoxWrapper() {
+    const { data: boxes, } = useGetBoxesQuery();
     return (
 
 
-        <div className='  flex justify-between items-center sm:px-[72px]'>
+        <div className='  flex justify-between items-center '>
             {
-                data && data.map((item) => (
+                boxes && boxes.map((item) => (
 
                     <Box key={item.id} {...item} />
                 ))
