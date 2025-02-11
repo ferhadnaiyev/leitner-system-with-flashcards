@@ -1,159 +1,255 @@
 {
   "cards": [
     {
-      "id": 1739118672649,
       "termin": "Reliable",
       "definition": "Someone or something that can be trusted to work well or behave in a dependable way.",
-      "boxID": 1
+      "boxID": 1,
+      "id": "1739118672649"
     },
     {
-      "id": 1739120296879,
       "termin": "sjkdmkewfm",
       "definition": "ddddddddddddddddsnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn",
-      "boxID": 1
+      "boxID": 4,
+      "id": "1739120296879"
     },
     {
-      "id": 1739120327486,
       "termin": "dsfwe",
       "definition": "wefwe",
-      "boxID": 1
+      "boxID": 1,
+      "id": "1739120327486"
     },
     {
-      "id": 1739120372308,
       "termin": "ewd",
       "definition": "djas jdfjwemfjwmenjfmjew\naejfmnwejkms\nefjmwkoefmwe\nefmwokwef",
-      "boxID": 1
+      "boxID": 2,
+      "id": "1739120372308"
     },
     {
-      "id": 1739120392193,
       "termin": "ew",
       "definition": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
-      "boxID": 1
+      "boxID": 1,
+      "id": "1739120392193"
     },
     {
-      "id": 1739120440893,
       "termin": "rrrrrrrrrrrrrrrrr",
       "definition": "erfgwgrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr",
-      "boxID": 1
+      "boxID": 1,
+      "id": "1739120440893"
     },
     {
-      "id": 1739120473179,
       "termin": "122",
       "definition": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
-      "boxID": 1
+      "boxID": 2,
+      "id": "1739120473179"
     },
     {
-      "id": 1739121087640,
       "termin": "23",
       "definition": "fwefeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
-      "boxID": 1
+      "boxID": 3,
+      "id": "1739121087640"
     },
     {
-      "id": 1739121416410,
       "termin": "4324r",
       "definition": "weer32we",
-      "boxID": 1
+      "boxID": 1,
+      "id": "1739121416410"
     },
     {
-      "id": 1739121442024,
       "termin": "wqer",
       "definition": "ewqr",
-      "boxID": 1
+      "boxID": 1,
+      "id": "1739121442024"
     },
     {
-      "id": 1739121560515,
       "termin": "üer",
       "definition": "23",
-      "boxID": 1
+      "boxID": 3,
+      "id": "1739121560515"
     },
     {
-      "id": 1739121739466,
       "termin": "2334",
       "definition": "23re2",
-      "boxID": 1
+      "boxID": 3,
+      "id": "1739121739466"
     },
     {
-      "id": 1739121828952,
       "termin": "2134",
       "definition": "1234",
-      "boxID": 1
+      "boxID": 2,
+      "id": "1739121828952"
     },
     {
-      "id": 1739121915150,
       "termin": "1234e",
       "definition": "24314",
-      "boxID": 1
+      "boxID": 3,
+      "id": "1739121915150"
     },
     {
-      "id": 1739123072280,
       "termin": "3q24q",
       "definition": "r23q4qr",
-      "boxID": 1
+      "boxID": 3,
+      "id": "1739123072280"
     },
     {
-      "id": 1739123164127,
       "termin": "123",
       "definition": "123",
-      "boxID": 1
+      "boxID": 2,
+      "id": "1739123164127"
     },
     {
-      "id": 1739123335198,
       "termin": "2",
       "definition": "2",
-      "boxID": 1
+      "boxID": 3,
+      "id": "1739123335198"
     },
     {
-      "id": 1739123397743,
       "termin": "3",
       "definition": "3",
-      "boxID": 1
+      "boxID": 2,
+      "id": "1739123397743"
     },
     {
-      "id": 1739123471943,
       "termin": "3",
       "definition": "3",
-      "boxID": 1
+      "boxID": 2,
+      "id": "1739123471943"
     },
     {
-      "id": 1739124538351,
       "termin": "23",
       "definition": "23",
+      "boxID": 1,
+      "id": "1739124538351"
+    },
+    {
+      "termin": "hnjewj",
+      "definition": "kjmekm",
+      "boxID": 1,
+      "id": "1739205554675"
+    },
+    {
+      "termin": "qwer",
+      "definition": "erqwwe",
+      "boxID": 1,
+      "id": "1739273556020"
+    },
+    {
+      "termin": "eqwrqerw",
+      "definition": "sdasaddf",
+      "boxID": 3,
+      "id": "1739273565569"
+    },
+    {
+      "id": "1739273665440",
+      "termin": "1234",
+      "definition": "1erwq",
+      "boxID": 1
+    },
+    {
+      "id": "1739276049006",
+      "termin": "qerwed",
+      "definition": "fwqwervfgwqe",
+      "boxID": 1
+    },
+    {
+      "id": "1739276055328",
+      "termin": "212r3qw",
+      "definition": "qew",
+      "boxID": 1
+    },
+    {
+      "id": "1739276123369",
+      "termin": "234rqfwe",
+      "definition": "werfsda",
+      "boxID": 1
+    },
+    {
+      "id": "1739276129335",
+      "termin": "234tfqwead",
+      "definition": "wrefasdcvz",
+      "boxID": 1
+    },
+    {
+      "id": "1739276283393",
+      "termin": "3r2qwe",
+      "definition": "weqr3qsdf",
+      "boxID": 1
+    },
+    {
+      "id": "1739276760969",
+      "termin": "aefds",
+      "definition": "asdfv",
+      "boxID": 1
+    },
+    {
+      "id": "1739276770352",
+      "termin": "qew",
+      "definition": "q3few",
+      "boxID": 1
+    },
+    {
+      "id": "1739276916155",
+      "termin": "32q4r",
+      "definition": "qwef",
+      "boxID": 1
+    },
+    {
+      "id": "1739276923521",
+      "termin": "134r12qw",
+      "definition": "qwera",
+      "boxID": 1
+    },
+    {
+      "id": "1739277744894",
+      "termin": "e2dw",
+      "definition": "eqadc",
+      "boxID": 1
+    },
+    {
+      "id": "1739277788564",
+      "termin": "qd3ew",
+      "definition": "wqea",
+      "boxID": 1
+    },
+    {
+      "id": "1739278411154",
+      "termin": "qfewa",
+      "definition": "ferqac",
       "boxID": 1
     }
   ],
   "boxes": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Daily",
       "boxID": 1,
       "practiceRequired": 1
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Every 2 days",
       "boxID": 2,
       "practiceRequired": 0
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Once a week",
       "boxID": 3,
       "practiceRequired": 1
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Once a month",
       "boxID": 4,
       "practiceRequired": 0
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Once in 3 months",
       "boxID": 5,
       "practiceRequired": 0
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "Once a year",
       "boxID": 6,
       "practiceRequired": 0

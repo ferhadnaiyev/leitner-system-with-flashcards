@@ -1,12 +1,6 @@
 import BoxWrapper from '@/components/BoxWrapper';
 import CardCarousel from '@/components/CardCarousel';
 
-
-
-
-
-
-
 export default async function Home() {
 
 

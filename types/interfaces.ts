@@ -1,5 +1,5 @@
 export interface CardsType {
-    id: number;
+    id: string;
     termin: string;
     definition: string;
     boxID: number;

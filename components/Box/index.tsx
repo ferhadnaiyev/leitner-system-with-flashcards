@@ -1,11 +1,11 @@
 "use client"
 import { setDisplayedBox } from '@/stores/slices/displayedBox'
-import { BoxItem } from '@/types/interfaces'
+import { BoxType } from '@/types/interfaces'
 import Image from 'next/image'
 import React from 'react'
 import { useDispatch } from 'react-redux'
 
-function Box({ name, boxID, practiceRequired }: BoxItem) {
+function Box({ name, boxID, practiceRequired }: BoxType) {
     const dispatch = useDispatch()
     const handleClick = () => {
         dispatch(setDisplayedBox(boxID))
