@@ -15,6 +15,7 @@
     --blue:#3772FF;
     --color-light: white;
     --color-dark: #212121;
+    --color-signal: #FFC107;
     
   }
 }
@@ -84,6 +85,17 @@ body {
   
   }
   
+}
+
+
+.h1-fluid {
+  font-size: clamp(20px, 4.5vw, 32px);
+}
+.p-fluid {
+  font-size: clamp(15px, 2vw, 18px);
+}
+.h3-fluid {
+  font-size: clamp(17px, 4.5vw, 22px);
 }
 
 @layer base {

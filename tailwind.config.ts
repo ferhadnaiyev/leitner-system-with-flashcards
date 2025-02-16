@@ -7,11 +7,16 @@ export default {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    container: {
+      center: true,
+      padding: "4.5rem",
+    },
     extend: {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-        yellow: "var(--yellow)"
+        yellow: "var(--yellow)",
+        blue: "var(--blue)",
       },
       fontFamily: {
         montserrat: ['var(--font-montserrat)', 'sans-serif'],
@@ -21,5 +26,6 @@ export default {
   plugins: [
     require('@tailwindcss/line-clamp'),
     require('tailwind-scrollbar-hide'),
+
   ],
 } satisfies Config;

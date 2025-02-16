@@ -12,7 +12,7 @@ function Card(props: CardsType) {
 
     return (
         <div>
-            <div className='flex items-center justify-end gap-[2px] relative top-[20px] right-[8px]'>
+            <div className='flex items-center justify-end gap-[2px] relative top-[20px] right-[8px] truncate'>
                 {
                     boxID !== 1 ? (
                         <CardButton targetBox="everydayBox" {...props} />
