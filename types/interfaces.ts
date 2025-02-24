@@ -1,12 +1,14 @@
-export interface CardsType {
-    id: string;
+export interface CardType {
+    cardId: number;
+    boxID: number;
     termin: string;
     definition: string;
-    boxID: number;
+    userId?: string
+    createdAt?: number
+
 }
 export interface BoxType {
     id: number;
-    name: string;
-    boxID: number;
-    practiceRequired: number;
+    title: string;
+    practiceRequired: boolean;
 }

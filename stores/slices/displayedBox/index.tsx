@@ -1,22 +1,29 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit'
 
 interface DisplayedBoxState {
-    displayedBox: number;
+    displayedBoxId: number;
+    displayedBoxTitle: string;
+
 }
 const initialState: DisplayedBoxState = {
-    displayedBox: 1,
+    displayedBoxId: 1,
+    displayedBoxTitle: "Daily"
 }
 
 export const displayedBoxSlice = createSlice({
     name: 'displayedBox',
     initialState,
     reducers: {
-        setDisplayedBox: (state, action: PayloadAction<number>) => {
-            state.displayedBox = action.payload
+        setDisplayedBoxId: (state, action: PayloadAction<number>) => {
+            state.displayedBoxId = action.payload
+
+        },
+        setDisplayedBoxTitle: (state, action: PayloadAction<string>) => {
+            state.displayedBoxTitle = action.payload
         }
     }
 })
 
-export const { setDisplayedBox } = displayedBoxSlice.actions
+export const { setDisplayedBoxId, setDisplayedBoxTitle } = displayedBoxSlice.actions
 
 export default displayedBoxSlice.reducer

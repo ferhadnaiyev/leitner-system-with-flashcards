@@ -4,9 +4,10 @@ import StoreProvider from "@/stores/store-provider";
 
 import { Montserrat } from "next/font/google";
 
-import Modal from "@/components/Modal";
+
 import { Toaster } from "sonner";
 import Header from "@/components/Header";
+
 
 const montserrat = Montserrat({
   variable: "--font-montserrat",
@@ -28,16 +29,18 @@ export default function RootLayout({
       <body className="font-montserrat "
       >
 
+
         <StoreProvider>
 
 
-          <Header />
           {children}
 
           <Toaster richColors position="bottom-right" />
-          <Modal />
+
+
 
         </StoreProvider>
+
 
       </body>
     </html>

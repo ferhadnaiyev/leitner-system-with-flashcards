@@ -1,6 +1,6 @@
 "use client"
 import React, { useState } from 'react'
-import { ImMinus, ImPlus } from "react-icons/im";
+
 function AccordionItem() {
     const [isOpen, setIsOpen] = useState(false)
 
@@ -11,7 +11,7 @@ function AccordionItem() {
 
         <div className={`
             ${isOpen ? "border-2" : "border-none"}
-            flex flex-col border-[var(--yellow)] rounded-[12px] font-medium max-w-max bg-gray-100`}>
+            flex flex-col border-[var(--yellow)] rounded-[12px] font-medium max-w-max `}>
 
             <abbr onClick={handleClick} className='flex justify-between items-center bg-yellow'>
                 <h3 className={`bg-[var(--yellow)] py-[10px] px-[20px] rounded-[12px] text-[22px] font-semibold leading-[26.82px] relative 

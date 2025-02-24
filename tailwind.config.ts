@@ -4,6 +4,7 @@ export default {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./features/**/*.{js,jsx,ts,tsx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
@@ -15,8 +16,11 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-        yellow: "var(--yellow)",
-        blue: "var(--blue)",
+        yellow: "#FFC107",
+        customDarkBlue: "#244B73",
+        customBlue: "#90B5DA",
+
+
       },
       fontFamily: {
         montserrat: ['var(--font-montserrat)', 'sans-serif'],
