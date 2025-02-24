@@ -24,7 +24,7 @@ export async function POST(req: Request) {
         return NextResponse.json({ message: "Unauthorized" }, { status: 401 });
     }
 
-    let { boxId, termin, definition } = await req.json();
+    const { boxId, termin, definition } = await req.json();
 
     if (!boxId) {
         boxId = 1;

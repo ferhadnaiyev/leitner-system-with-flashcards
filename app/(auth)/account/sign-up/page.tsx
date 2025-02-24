@@ -1,5 +1,3 @@
-
-import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { signUp } from "@/lib/actions";
 import { redirect } from "next/navigation";
@@ -8,8 +6,7 @@ import { auth } from "@/lib/auth";
 import PrimaryButton from "@/components/PrimaryButton";
 import InputLabel from "@/components/InputLabel";
 import { FaCheck } from "react-icons/fa";
-import { GithubSignIn } from "@/components/GitHubSignIn";
-import { GoogleSignIn } from "@/components/GoogleSignIn";
+
 
 const Page = async () => {
 
