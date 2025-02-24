@@ -2,20 +2,17 @@ import { auth } from "@/lib/auth";
 import db from "@/lib/db";
 import { NextRequest, NextResponse } from "next/server";
 
+// ✅ DELETE REQUEST
 export async function DELETE(req: Request, { params }: { params: { id: string } }) {
     const session = await auth();
     if (!session) {
         return NextResponse.json({ message: "Unauthorized" }, { status: 401 });
     }
 
-    const cardId = params.id;  // Burada id string olarak geliyor
+    const cardId = params.id;
 
     try {
-        // Prisma ile cardId'yi kullanarak kartı sil
-        await db.cards.delete({
-            where: { id: cardId },
-        });
-
+        await db.cards.delete({ where: { id: cardId } });
         return NextResponse.json({ message: "Card deleted successfully" }, { status: 200 });
     } catch (error) {
         console.error("Error deleting card:", error);
@@ -23,21 +20,24 @@ export async function DELETE(req: Request, { params }: { params: { id: string } 
     }
 }
 
-
-// PUT isteyi atma
-
-
+// ✅ PUT REQUEST (Kart Güncelleme)
 export async function PUT(req: NextRequest, { params }: { params: { id: string } }) {
-    try {
-        const { id } = params; // URL'den kartın ID'sini al
-        const { boxId } = await req.json(); // İstek gövdesinden yeni boxId'yi al
+    const session = await auth();
+    if (!session) {
+        return NextResponse.json({ message: "Unauthorized" }, { status: 401 });
+    }
 
-        // boxId kontrolü (Negatif veya null olmamalı)
-        if (!boxId || typeof boxId !== "number" || boxId < 1) {
+    try {
+        const { id } = params;
+        const body = await req.json();
+        const boxId = Number(body.boxId); // JSON'dan gelen string'i sayıya çevir
+
+        // ✅ boxId geçerli mi? (NaN değil ve 1'den büyük olmalı)
+        if (Number.isNaN(boxId) || boxId < 1) {
             return NextResponse.json({ error: "Geçersiz boxId" }, { status: 400 });
         }
 
-        // Kartı güncelle
+        // ✅ Kartı güncelle
         const updatedCard = await db.cards.update({
             where: { id },
             data: { boxId },
@@ -45,7 +45,7 @@ export async function PUT(req: NextRequest, { params }: { params: { id: string }
 
         return NextResponse.json(updatedCard, { status: 200 });
     } catch (error) {
-        console.error("eror", error)
+        console.error("Hata oluştu:", error);
         return NextResponse.json({ error: "Kart güncellenirken hata oluştu" }, { status: 500 });
     }
 }
